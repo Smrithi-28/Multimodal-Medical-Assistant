@@ -1,0 +1,17 @@
+langchain 
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-huggingface
+langchain-openai
+faiss-cpu
+transformers
+sentence-transformers
+huggingface-hub
+torch
+langchain-groq
+pypdf
+langchainhub
+streamlit
+
+python-dotenv
