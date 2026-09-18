@@ -71,7 +71,7 @@ An **AI-powered medical assistant** that combines **text and image inputs** to p
 
 ### **Deployment**
 
-* **Hugging Face Spaces / Render** *(update this based on your final deployment)*
+* **Hugging Face Spaces 
 
 ### **Environment & Configuration**
 
