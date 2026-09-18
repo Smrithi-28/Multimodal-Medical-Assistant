@@ -1808,9 +1808,9 @@ with gr.Blocks(
 # ============================================================
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 7860))
+    port = int(os.environ.get("PORT", 10000))
 
-    print(f"Starting Gradio on port {port}...")
+    print(f"Starting Gradio on 0.0.0.0:{port}...")
 
     iface.launch(
         server_name="0.0.0.0",
@@ -1825,7 +1825,6 @@ if __name__ == "__main__":
     load_rag_chain()
     print("RAG system loaded successfully.")
 
-    # Keep the process alive
     import time
     while True:
         time.sleep(60)
