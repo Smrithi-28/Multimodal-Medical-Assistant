@@ -80,7 +80,7 @@ Users can type or speak their medical queries, upload relevant medical images, a
 
 ### **Deployment**
 
-* **Hugging Face Spaces 
+* **Hugging Face Spaces**
 
 ### **Environment & Configuration**
 
