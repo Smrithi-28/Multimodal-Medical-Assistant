@@ -39,7 +39,6 @@ VECTORSTORE_PATH = BASE_DIR / "vectorstore" / "db_faiss"
 # ============================================================
 
 CSS = """
-
 /* ============================================================
    MULTIMODAL MEDICAL ASSISTANT — CLEAN LIGHT UI
    ============================================================ */
@@ -68,7 +67,6 @@ CSS = """
     --input-background-fill-focus: #ffffff;
     --input-border-color: #dbe3ef;
     --input-border-color-focus: #2563eb;
-
     --button-primary-background-fill: #2563eb;
     --button-primary-background-fill-hover: #1d4ed8;
     --button-primary-text-color: #ffffff;
@@ -140,14 +138,11 @@ body,
 .mma-header {
     width: 100% !important;
     min-height: 118px;
-
     background: #ffffff !important;
     border: 1px solid var(--mma-border) !important;
     border-radius: 22px !important;
-
     padding: 22px 28px !important;
     margin: 0 0 26px !important;
-
     box-shadow: 0 10px 30px rgba(16, 24, 40, .06) !important;
 }
 
@@ -155,7 +150,6 @@ body,
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-
     gap: 24px !important;
     width: 100% !important;
 }
@@ -163,7 +157,6 @@ body,
 .mma-brand {
     display: flex !important;
     align-items: center !important;
-
     gap: 16px !important;
     min-width: 0 !important;
 }
@@ -171,58 +164,43 @@ body,
 .mma-brand-icon {
     width: 58px !important;
     height: 58px !important;
-
     flex: 0 0 58px !important;
-
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-
     border-radius: 16px !important;
-
     background: var(--mma-primary-soft) !important;
     color: var(--mma-primary) !important;
-
     font-size: 30px !important;
     line-height: 1 !important;
 }
 
 .mma-brand h1 {
     margin: 0 !important;
-
     color: var(--mma-text) !important;
-
     font-size: 29px !important;
     line-height: 36px !important;
     font-weight: 750 !important;
-
     letter-spacing: -.025em !important;
 }
 
 .mma-brand p {
     margin: 4px 0 0 !important;
-
     color: var(--mma-muted) !important;
-
     font-size: 11px !important;
     line-height: 17px !important;
     font-weight: 700 !important;
-
     letter-spacing: .06em !important;
 }
 
 .mma-security {
     display: flex !important;
     align-items: center !important;
-
     gap: 8px !important;
     flex: 0 0 auto !important;
-
     color: #000000 !important;
-
     font-size: 12px !important;
     font-weight: 600 !important;
-
     white-space: nowrap !important;
 }
 
@@ -230,13 +208,10 @@ body,
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-
     color: var(--mma-primary) !important;
-
     font-family: Arial, sans-serif !important;
     font-size: 25px !important;
     line-height: 1 !important;
-
     flex: 0 0 auto !important;
     white-space: nowrap !important;
 }
@@ -270,9 +245,7 @@ body,
 
 .mma-intro h2 {
     margin: 0 0 8px !important;
-
     color: var(--mma-text) !important;
-
     font-size: 27px !important;
     line-height: 34px !important;
     font-weight: 750 !important;
@@ -281,9 +254,7 @@ body,
 .mma-intro p {
     max-width: 850px !important;
     margin: 0 auto !important;
-
     color: var(--mma-muted) !important;
-
     font-size: 14px !important;
     line-height: 21px !important;
 }
@@ -294,7 +265,6 @@ body,
 .mma-tabs,
 .mma-tabs > div {
     width: 100% !important;
-
     background: transparent !important;
     border: 0 !important;
     box-shadow: none !important;
@@ -303,47 +273,33 @@ body,
 .mma-tabs .tab-nav {
     display: flex !important;
     align-items: stretch !important;
-
     gap: 5px !important;
     width: 100% !important;
     min-height: 54px !important;
-
     padding: 5px !important;
     margin: 0 0 22px !important;
-
     background: #ffffff !important;
-
     border: 1px solid var(--mma-border) !important;
     border-radius: 15px !important;
-
     box-shadow: 0 5px 18px rgba(16, 24, 40, .045) !important;
 }
 
 .mma-tabs .tab-nav button,
 .mma-tabs .tab-nav button[role="tab"] {
     flex: 0 1 auto !important;
-
     min-height: 42px !important;
-
     margin: 0 !important;
     padding: 10px 20px !important;
-
     background: #f3f5f8 !important;
-
     border: 1px solid #d0d5dd !important;
     border-radius: 10px !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     opacity: 1 !important;
-
     text-shadow: none !important;
-
     font-size: 14px !important;
     font-weight: 700 !important;
     line-height: 20px !important;
-
     white-space: nowrap !important;
 }
 
@@ -364,12 +320,9 @@ body,
 .mma-tabs .tab-nav button:hover,
 .mma-tabs .tab-nav button:focus-visible {
     background: #eaf1ff !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     border-color: #cbdcff !important;
-
     opacity: 1 !important;
 }
 
@@ -379,12 +332,9 @@ body,
 .mma-tabs .tab-nav button.selected,
 .mma-tabs .tab-nav button[aria-selected="true"] {
     background: #2563eb !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     border-color: #2563eb !important;
-
     box-shadow: 0 4px 12px rgba(37, 99, 235, .20) !important;
 }
 
@@ -394,18 +344,13 @@ body,
 .mma-mode-info {
     display: flex !important;
     align-items: flex-start !important;
-
     gap: 13px !important;
     width: 100% !important;
-
     padding: 15px 17px !important;
     margin: 0 0 20px !important;
-
     background: var(--mma-primary-soft) !important;
-
     border: 1px solid #cfe0ff !important;
     border-radius: 14px !important;
-
     overflow: hidden !important;
 }
 
@@ -416,11 +361,8 @@ body,
 
 .mma-mode-info strong {
     display: block !important;
-
     margin: 0 0 3px !important;
-
     color: var(--mma-text) !important;
-
     font-size: 14px !important;
     line-height: 20px !important;
     font-weight: 750 !important;
@@ -428,9 +370,7 @@ body,
 
 .mma-mode-info span:not(.mma-icon) {
     display: block !important;
-
     color: var(--mma-text-soft) !important;
-
     font-size: 12px !important;
     line-height: 18px !important;
 }
@@ -441,18 +381,14 @@ body,
 .mma-section-title {
     display: flex !important;
     align-items: center !important;
-
     gap: 9px !important;
     min-width: 0 !important;
-
     margin: 0 0 13px !important;
 }
 
 .mma-section-title h2 {
     margin: 0 !important;
-
     color: var(--mma-text) !important;
-
     font-size: 21px !important;
     line-height: 28px !important;
     font-weight: 750 !important;
@@ -460,7 +396,6 @@ body,
 
 .mma-section-title .mma-icon {
     width: 27px !important;
-
     font-size: 22px !important;
     line-height: 1 !important;
 }
@@ -471,16 +406,11 @@ body,
 .mma-card {
     width: 100% !important;
     min-width: 0 !important;
-
     background: #ffffff !important;
-
     border: 1px solid var(--mma-border) !important;
     border-radius: var(--mma-radius) !important;
-
     box-shadow: 0 8px 26px rgba(16, 24, 40, .055) !important;
-
     padding: 20px !important;
-
     overflow: visible !important;
 }
 
@@ -500,7 +430,6 @@ body,
 .mma-card label span {
     color: var(--mma-text-soft) !important;
     -webkit-text-fill-color: var(--mma-text-soft) !important;
-
     background: transparent !important;
     opacity: 1 !important;
 }
@@ -508,9 +437,7 @@ body,
 .mma-card label span {
     font-size: 11px !important;
     line-height: 17px !important;
-
     font-weight: 750 !important;
-
     letter-spacing: .055em !important;
     text-transform: uppercase !important;
 }
@@ -524,13 +451,10 @@ body,
 .mma-output textarea,
 .mma-chat-input textarea {
     background: #f8fafc !important;
-
     color: #172033 !important;
     -webkit-text-fill-color: #172033 !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 12px !important;
-
     box-shadow: none !important;
 }
 
@@ -540,9 +464,7 @@ body,
 .mma-output textarea:focus,
 .mma-chat-input textarea:focus {
     background: #ffffff !important;
-
     border-color: #2563eb !important;
-
     box-shadow:
         0 0 0 3px rgba(37, 99, 235, .10) !important;
 }
@@ -555,7 +477,6 @@ body,
 .mma-card ::placeholder {
     color: #98a2b3 !important;
     -webkit-text-fill-color: #98a2b3 !important;
-
     opacity: 1 !important;
 }
 
@@ -565,18 +486,12 @@ body,
 .mma-chatbot {
     width: 100% !important;
     min-width: 0 !important;
-
     height: 450px !important;
-
     background: #f8fafc !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 14px !important;
-
     overflow: hidden !important;
-
     color: #172033 !important;
-
     color-scheme: light !important;
 }
 
@@ -597,7 +512,6 @@ body,
 .mma-chatbot div {
     color: #172033 !important;
     -webkit-text-fill-color: #172033 !important;
-
     overflow-wrap: anywhere !important;
 }
 
@@ -610,7 +524,6 @@ body,
 .mma-chatbot pre,
 .mma-chatbot code {
     background: #eef2f7 !important;
-
     color: #172033 !important;
     -webkit-text-fill-color: #172033 !important;
 }
@@ -630,20 +543,14 @@ body,
 .mma-primary-button .gr-button-primary,
 .mma-card .gr-button-primary {
     min-height: 50px !important;
-
     padding: 11px 18px !important;
-
     background: #2563eb !important;
-
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
-
     border: 1px solid #2563eb !important;
     border-radius: 12px !important;
-
     font-size: 14px !important;
     font-weight: 700 !important;
-
     box-shadow: 0 6px 15px rgba(37, 99, 235, .18) !important;
 }
 
@@ -651,7 +558,6 @@ body,
 .mma-card .gr-button-primary:hover {
     background: #1d4ed8 !important;
     border-color: #1d4ed8 !important;
-
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
 }
@@ -661,21 +567,16 @@ body,
 
 .mma-card .gr-button-secondary {
     min-height: 42px !important;
-
     background: #f3f5f8 !important;
-
     color: #344054 !important;
     -webkit-text-fill-color: #344054 !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 11px !important;
-
     font-weight: 650 !important;
 }
 
 .mma-card .gr-button-secondary:hover {
     background: #eaf1ff !important;
-
     color: #1d4ed8 !important;
     -webkit-text-fill-color: #1d4ed8 !important;
 }
@@ -688,14 +589,10 @@ body,
 .mma-card .gradio-audio button[title*="Record"],
 .mma-card .gradio-audio [data-testid="record"] {
     background: #1f2937 !important;
-
     color: #ffffff !important;
     -webkit-text-fill-color: #ffffff !important;
-
     border: 1px solid #1f2937 !important;
-
     box-shadow: none !important;
-
     opacity: 1 !important;
 }
 
@@ -718,33 +615,24 @@ body,
 .mma-card .gradio-audio .container {
     width: 100% !important;
     min-width: 0 !important;
-
     background: #ffffff !important;
-
     color: #172033 !important;
-
     color-scheme: light !important;
 }
 
 .mma-card .gradio-audio button {
     background: #ffffff !important;
-
     color: #344054 !important;
     -webkit-text-fill-color: #344054 !important;
-
     border: 1px solid #cfd8e6 !important;
     border-radius: 9px !important;
-
     box-shadow: none !important;
-
     opacity: 1 !important;
 }
 
 .mma-card .gradio-audio button:hover {
     background: #f3f6fb !important;
-
     border-color: #2563eb !important;
-
     color: #1d4ed8 !important;
     -webkit-text-fill-color: #1d4ed8 !important;
 }
@@ -763,10 +651,8 @@ body,
 .mma-card .gradio-image > div,
 .mma-card .gradio-audio > div {
     background: #f8fafc !important;
-
     border-color: #dbe3ef !important;
     border-radius: 12px !important;
-
     color: #344054 !important;
 }
 
@@ -775,7 +661,6 @@ body,
 .mma-card .file-preview * {
     color: #344054 !important;
     -webkit-text-fill-color: #344054 !important;
-
     overflow-wrap: anywhere !important;
 }
 
@@ -785,21 +670,16 @@ body,
 .mma-output {
     width: 100% !important;
     min-width: 0 !important;
-
     background: #f8fafc !important;
-
     border: 0 !important;
     border-radius: 12px !important;
-
     overflow: hidden !important;
 }
 
 .mma-output textarea {
     background: #f8fafc !important;
-
     color: #172033 !important;
     -webkit-text-fill-color: #172033 !important;
-
     border: 1px solid #e1e7ef !important;
 }
 
@@ -809,17 +689,12 @@ body,
 .mma-source-box {
     width: 100% !important;
     max-width: none !important;
-
     margin: 0 !important;
     padding: 16px !important;
-
     background: #f8fafc !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 13px !important;
-
     overflow: hidden !important;
-
     color: #000000 !important;
 }
 
@@ -831,17 +706,12 @@ body,
 .mma-source-title {
     display: flex !important;
     align-items: center !important;
-
     gap: 7px !important;
-
     margin: 0 0 11px !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     font-size: 13px !important;
     line-height: 19px !important;
-
     font-weight: 750 !important;
 }
 
@@ -853,49 +723,37 @@ body,
 .mma-source {
     width: 100% !important;
     max-width: none !important;
-
     padding: 12px 0 0 !important;
     margin: 12px 0 0 !important;
-
     border-top: 1px solid #dbe3ef !important;
-
     overflow: hidden !important;
 }
 
 .mma-source-name {
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     font-size: 12px !important;
     line-height: 17px !important;
-
     font-weight: 700 !important;
-
     overflow-wrap: anywhere !important;
     word-break: break-word !important;
 }
 
 .mma-source-page {
     margin-top: 4px !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     font-size: 11px !important;
     line-height: 16px !important;
 }
 
 .mma-source-preview {
     margin-top: 6px !important;
-
     color: #000000 !important;
     -webkit-text-fill-color: #000000 !important;
-
     font-size: 11px !important;
     line-height: 17px !important;
-
     white-space: normal !important;
-
     overflow-wrap: anywhere !important;
     word-break: break-word !important;
 }
@@ -906,19 +764,13 @@ body,
 .mma-disclaimer {
     display: flex !important;
     align-items: flex-start !important;
-
     gap: 9px !important;
-
     margin-top: 18px !important;
     padding: 12px 14px !important;
-
     background: #f8fafc !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 11px !important;
-
     color: #667085 !important;
-
     font-size: 11px !important;
     line-height: 17px !important;
 }
@@ -930,9 +782,7 @@ body,
 
 .mma-disclaimer .mma-icon::before {
     content: "ⓘ";
-
     font-size: 16px;
-
     color: #667085;
 }
 
@@ -947,28 +797,20 @@ body,
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-
     gap: 24px !important;
-
     width: 100% !important;
-
     margin-top: 26px !important;
     padding: 16px 20px !important;
-
     background: #ffffff !important;
-
     border: 1px solid #dbe3ef !important;
     border-radius: 15px !important;
-
     color: #667085 !important;
-
     font-size: 11px !important;
     line-height: 17px !important;
 }
 
 .mma-footer strong {
     color: #172033 !important;
-
     font-size: 12px !important;
 }
 
@@ -1040,7 +882,6 @@ body,
         flex-direction: column !important;
     }
 }
-
 """
 
 
@@ -1056,7 +897,7 @@ def load_rag_chain():
     if not rag_groq_api_key:
         raise RuntimeError(
             "RAG_GROQ_API_KEY was not found. "
-            "Please add it to the .env file."
+            "Please add it to the Render environment variables."
         )
 
     llm = ChatGroq(
@@ -1097,9 +938,11 @@ This is an educational medical information system.
 Do not present the response as a diagnosis or personal medical advice.
 
 Context:
+
 {context}
 
 Question:
+
 {input}
 """
     )
@@ -1157,8 +1000,11 @@ def answer_medical_question(question, history):
             <div class="mma-source-box">
 
                 <div class="mma-source-title">
+
                     <span class="mma-icon">▤</span>
+
                     Retrieved Medical Sources
+
                 </div>
             """
 
@@ -1179,23 +1025,37 @@ def answer_medical_question(question, history):
 
                 preview = doc.page_content[:400]
 
-                safe_source = html.escape(str(source))
-                safe_page = html.escape(str(page))
-                safe_preview = html.escape(str(preview))
+                safe_source = html.escape(
+                    str(source)
+                )
+
+                safe_page = html.escape(
+                    str(page)
+                )
+
+                safe_preview = html.escape(
+                    str(preview)
+                )
 
                 source_html += f"""
                 <div class="mma-source">
 
                     <div class="mma-source-name">
+
                         Source {i}: {safe_source}
+
                     </div>
 
                     <div class="mma-source-page">
+
                         Page: {safe_page}
+
                     </div>
 
                     <div class="mma-source-preview">
+
                         {safe_preview}
+
                     </div>
 
                 </div>
@@ -1211,8 +1071,11 @@ def answer_medical_question(question, history):
             <div class="mma-source-box">
 
                 <div class="mma-source-title">
+
                     <span class="mma-icon">▤</span>
+
                     No supporting sources
+
                 </div>
 
                 <div style="
@@ -1221,8 +1084,10 @@ def answer_medical_question(question, history):
                     font-size:12px;
                     line-height:18px;
                 ">
+
                     No supporting documents were retrieved
                     for this question.
+
                 </div>
 
             </div>
@@ -1291,11 +1156,13 @@ def process_inputs(
 ):
 
     if not audio_filepath:
+
         raise gr.Error(
             "Please record or upload your voice description first."
         )
 
     if not image_filepath:
+
         raise gr.Error(
             "Please upload a medical image before analysis."
         )
@@ -1398,9 +1265,11 @@ with gr.Blocks(
                         </span>
 
                         <span style="color:#000000;">
+
                             Educational &amp;
                             privacy-conscious
                             AI assistance
+
                         </span>
 
                     </div>
@@ -1425,10 +1294,12 @@ with gr.Blocks(
                 </h2>
 
                 <p>
+
                     Choose between general medical knowledge
                     grounded in a curated medical encyclopedia,
                     or a multimodal assistant that can work
                     with medical images and voice descriptions.
+
                 </p>
 
             </div>
@@ -1443,7 +1314,6 @@ with gr.Blocks(
         with gr.Tabs(
             elem_classes="mma-tabs"
         ):
-
 
             # ==================================================
             # TAB 1 — GENERAL MEDICAL CHAT
@@ -1468,9 +1338,11 @@ with gr.Blocks(
                             </strong>
 
                             <span>
+
                                 Ask general medical questions
                                 and receive answers grounded
                                 in the medical encyclopedia.
+
                             </span>
 
                         </div>
@@ -1483,7 +1355,6 @@ with gr.Blocks(
                 with gr.Row(
                     equal_height=False
                 ):
-
 
                     # ------------------------------------------
                     # CHAT SECTION
@@ -1526,6 +1397,7 @@ with gr.Blocks(
                             ):
 
                                 medical_question = gr.Textbox(
+
                                     placeholder=(
                                         "Ask something about a disease, "
                                         "symptom, condition, treatment, "
@@ -1539,23 +1411,20 @@ with gr.Blocks(
                                     scale=8,
 
                                     elem_classes="mma-chat-input",
+
                                 )
 
 
                                 ask_button = gr.Button(
                                     "Ask",
-
                                     variant="primary",
-
                                     scale=2,
-
                                     min_width=100,
                                 )
 
 
                             clear_button = gr.Button(
                                 "Clear Conversation",
-
                                 variant="secondary",
                             )
 
@@ -1630,6 +1499,7 @@ with gr.Blocks(
                                     </span>
 
                                     <span>
+
                                         This chatbot provides
                                         educational medical
                                         information based on
@@ -1638,6 +1508,7 @@ with gr.Blocks(
                                         for professional medical
                                         advice, diagnosis, or
                                         treatment.
+
                                     </span>
 
                                 </div>
@@ -1668,11 +1539,13 @@ with gr.Blocks(
                             </strong>
 
                             <span>
+
                                 Provide a medical image and
                                 describe your concern using
                                 your voice. The system returns
                                 AI-generated informational
                                 guidance in text and audio.
+
                             </span>
 
                         </div>
@@ -1685,7 +1558,6 @@ with gr.Blocks(
                 with gr.Row(
                     equal_height=False
                 ):
-
 
                     # ------------------------------------------
                     # PATIENT INPUT
@@ -1739,18 +1611,14 @@ with gr.Blocks(
                                     "microphone",
                                     "upload"
                                 ],
-
                                 type="filepath",
-
                                 label="Voice Description",
                             )
 
 
                             image_input = gr.Image(
                                 type="filepath",
-
                                 label="Medical Image",
-
                                 height=300,
                             )
 
@@ -1761,9 +1629,7 @@ with gr.Blocks(
 
                                 analyze_button = gr.Button(
                                     "Analyze Concern",
-
                                     variant="primary",
-
                                     size="lg",
                                 )
 
@@ -1777,12 +1643,14 @@ with gr.Blocks(
                                     </span>
 
                                     <span>
+
                                         Upload a clear image
                                         and describe the concern
                                         accurately. AI output
                                         is informational and
                                         should not be treated
                                         as a medical diagnosis.
+
                                     </span>
 
                                 </div>
@@ -1821,31 +1689,23 @@ with gr.Blocks(
 
                             transcript_output = gr.Textbox(
                                 label="Your Speech Transcript",
-
                                 lines=4,
-
                                 interactive=False,
-
                                 elem_classes="mma-output",
                             )
 
 
                             response_output = gr.Textbox(
                                 label="AI Medical Guidance",
-
                                 lines=10,
-
                                 interactive=False,
-
                                 elem_classes="mma-output",
                             )
 
 
                             audio_output = gr.Audio(
                                 label="Audio Response",
-
                                 type="filepath",
-
                                 autoplay=True,
                             )
 
@@ -1891,12 +1751,10 @@ with gr.Blocks(
 
     ask_button.click(
         fn=answer_medical_question,
-
         inputs=[
             medical_question,
             chatbot
         ],
-
         outputs=[
             chatbot,
             sources_output
@@ -1906,12 +1764,10 @@ with gr.Blocks(
 
     medical_question.submit(
         fn=answer_medical_question,
-
         inputs=[
             medical_question,
             chatbot
         ],
-
         outputs=[
             chatbot,
             sources_output
@@ -1921,9 +1777,7 @@ with gr.Blocks(
 
     clear_button.click(
         fn=lambda: ([], ""),
-
         inputs=None,
-
         outputs=[
             chatbot,
             sources_output
@@ -1933,12 +1787,10 @@ with gr.Blocks(
 
     analyze_button.click(
         fn=process_inputs,
-
         inputs=[
             audio_input,
             image_input
         ],
-
         outputs=[
             transcript_output,
             response_output,
@@ -1948,16 +1800,25 @@ with gr.Blocks(
 
 
 # ============================================================
+# LAUNCH — RENDER
+# ============================================================
+
+# ============================================================
 # LAUNCH
 # ============================================================
+
 if __name__ == "__main__":
     print("Loading RAG system...")
     load_rag_chain()
-    print("RAG system loaded.")
+    print("RAG system loaded successfully.")
+
+    port = int(os.environ.get("PORT", 7860))
+
+    print(f"Starting Gradio on port {port}...")
 
     iface.launch(
         server_name="0.0.0.0",
-        server_port=int(os.environ.get("PORT", 7860)),
+        server_port=port,
         debug=False,
         css=CSS,
         theme=gr.themes.Soft(),
