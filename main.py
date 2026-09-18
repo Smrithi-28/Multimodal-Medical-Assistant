@@ -1807,8 +1807,19 @@ with gr.Blocks(
 # LAUNCH
 # ============================================================
 
+# ============================================================
+# LAUNCH — RENDER
+# ============================================================
+
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 10000))
+
+    # Render provides PORT automatically.
+    # Locally, it falls back to 7860.
+    port = int(os.environ.get("PORT", 7860))
+
+    print("Loading RAG system...")
+    load_rag_chain()
+    print("RAG system loaded successfully.")
 
     print(f"Starting Gradio on 0.0.0.0:{port}...")
 
@@ -1818,13 +1829,4 @@ if __name__ == "__main__":
         debug=False,
         css=CSS,
         theme=gr.themes.Soft(),
-        prevent_thread_lock=True,
     )
-
-    print("Loading RAG system...")
-    load_rag_chain()
-    print("RAG system loaded successfully.")
-
-    import time
-    while True:
-        time.sleep(60)
