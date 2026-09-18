@@ -2,7 +2,9 @@
 
 ## **Project Description**
 
-An **AI-powered medical assistant** that combines **text and image inputs** to provide informative and context-aware medical responses. The application uses **Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), vector search, and multimodal AI** to help users access and understand medical information through a conversational interface.
+An AI-powered multimodal medical assistant that combines text, speech, and image inputs to provide informative and context-aware medical responses. The application integrates Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), vector search, speech processing, and multimodal AI to provide users with an interactive healthcare information experience.
+
+Users can type or speak their medical queries, upload relevant medical images, and receive AI-generated responses in both text and speech, creating a more accessible and natural way to interact with medical information.
 
 > ⚠️ **Disclaimer:** This project is intended for **educational and informational purposes only**. It is not a substitute for professional medical diagnosis, treatment, or medical advice.
 
@@ -30,13 +32,15 @@ An **AI-powered medical assistant** that combines **text and image inputs** to p
 
 ## ✨ **Key Features**
 
-* 🩺 **General Medical Chat** – Ask medical and health-related questions using natural language.
-* 🖼️ **Medical Image Analysis** – Accepts medical images for multimodal analysis.
-* 📚 **RAG-Based Information Retrieval** – Retrieves relevant information from a medical knowledge base before generating responses.
-* 🤖 **LLM-Powered Responses** – Generates natural-language explanations using a Large Language Model.
-* 🔎 **Semantic Search** – Uses embeddings and vector similarity search to retrieve relevant medical information.
-* 🔄 **Multimodal Interaction** – Combines textual queries with visual information.
-* 💬 **Interactive Interface** – Provides an easy-to-use conversational interface through Gradio.
+🩺 General Medical Chat – Ask medical and health-related questions using natural language.
+🎙️ Speech Input – Users can interact with the assistant using spoken medical queries.
+🔊 Speech Output – AI-generated responses can be converted into speech for a more natural and accessible interaction.
+🖼️ Medical Image Analysis – Accepts medical images for multimodal analysis.
+📚 RAG-Based Information Retrieval – Retrieves relevant information from a medical knowledge base before generating responses.
+🤖 LLM-Powered Responses – Generates natural-language medical explanations using a Large Language Model.
+🔎 Semantic Search – Uses embeddings and vector similarity search to retrieve relevant medical information.
+🔄 Multimodal Interaction – Combines text, speech, and visual inputs within a single application.
+💬 Interactive Interface – Provides an easy-to-use interface through Gradio.
 
 ---
 
@@ -58,6 +62,11 @@ An **AI-powered medical assistant** that combines **text and image inputs** to p
 * **Retrieval-Augmented Generation (RAG)**
 * **Hugging Face Embeddings**
 * **Semantic Search**
+
+### **Speech Processing**
+
+* **Speech-to-Text (STT)**
+* **Text-to-Speech (TTS)**
 
 ### **Vector Database**
 
